@@ -1,8 +1,9 @@
 {
     "name": "scpp-vscode",
     "displayName": "SCPP for vscode",
+    "publisher": "MinekPo1",
     "description": "SCPP support for vscode",
-    "repo": "https://github.com/MinekPo1/SCPP-vscode",
+    "repository": "https://github.com/MinekPo1/SCPP-vscode",
     "version": "0.0.1",
     "engines": {
         "vscode": "^1.69.0"
