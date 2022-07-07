@@ -1,0 +1,25 @@
+{
+    "name": "scpp-vscode",
+    "displayName": "SCPP for vscode",
+    "description": "SCPP support for vscode",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.69.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "scpp",
+            "aliases": ["SCPP", "scpp"],
+            "extensions": [".sc"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "scpp",
+            "scopeName": "source.scpp",
+            "path": "./syntaxes/scpp.tmLanguage.json"
+        }]
+    }
+}
