@@ -4,7 +4,7 @@
     "publisher": "MinekPo1",
     "description": "SCPP support for vscode",
     "repository": "https://github.com/MinekPo1/SCPP-vscode",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "engines": {
         "vscode": "^1.69.0"
     },
