@@ -29,7 +29,7 @@
 		"keywords": {
 			"patterns": [{
 				"name": "keyword.control.scpp",
-				"match": "\\b(if|while|for|return|namespace|func|for|_asm_|_getValueOfA_|public|private|inline|var)\\b"
+				"match": "\\b(if|while|for|return|namespace|func|for|_asm_|_getValueOfA_|public|private|inline|var|is|from|to|by)\\b"
 			}]
 		},
 		"strings": {
@@ -66,7 +66,7 @@
 			"patterns": [
 				{
 					"name": "variable.other.scpp",
-					"match": "\\b[\\@a-zA-Z_][a-zA-Z0-9_]*\\b"
+					"match": "[\\@a-zA-Z_][a-zA-Z0-9_]*"
 				}
 			]
 		},
