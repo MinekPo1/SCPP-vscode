@@ -1,0 +1,28 @@
+{
+	"namespace": {
+		"prefix": "namespace",
+		"body": [
+			"namespace $1 {",
+			"\t$0",
+			"}"
+		]
+	},
+	"function": {
+		"prefix": "func",
+		"body": [
+			"func $1($2) {",
+			"\t$0",
+			"}"
+		]
+	},
+	"main function": {
+		"prefix": "main",
+		"body": [
+			"namespace $1 {",
+			"\tfunc main() {",
+			"\t\t$0",
+			"\t}",
+			"}"
+		]
+	}
+}
