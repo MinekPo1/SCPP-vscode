@@ -24,5 +24,29 @@
 			"\t}",
 			"}"
 		]
+	},
+	"switch statement":{
+		"prefix": "switch",
+		"body": [
+			"switch $1 {",
+			"\t$0",
+			"}"
+		]
+	},
+	"case":{
+		"prefix": "case",
+		"body": [
+			"case $1 ->{",
+			"\t$0",
+			"}"
+		]
+	},
+	"default":{
+		"prefix": "default",
+		"body": [
+			"default ->{",
+			"\t$0",
+			"}"
+		]
 	}
 }
